@@ -24,6 +24,10 @@ along with wyebrun.  If not, see <http://www.gnu.org/licenses/>.
 //flock
 #include <sys/file.h>
 
+//open
+#include <sys/stat.h>
+#include <fcntl.h>
+
 //monitor
 #include <gio/gio.h>
 
